@@ -1,0 +1,87 @@
+.plant-view {
+  width: 7.5rem;
+  background-color: #f7f7f7;
+  height: 100vh;
+  padding-bottom: 2rem;
+  overflow: scroll;
+  font-size: 0.28rem;
+
+  .adm-swiper-indicator {
+    bottom: 0.36rem !important;
+  }
+
+  .plant-item {
+    height: 7.5rem;
+  }
+
+  .plant-img {
+    width: 7.5rem;
+    display: block;
+    height: 7.5rem;
+  }
+
+  .title {
+    margin-top: -0.24rem;
+    background: #fff;
+    position: relative;
+    z-index: 999;
+    border-top-left-radius: 0.32rem;
+    border-top-right-radius: 0.32rem;
+    padding: 0.32rem;
+  }
+
+  .name {
+    font-size: 0.4rem;
+  }
+
+  .info {
+    margin-top: 0.16rem;
+    // font-size: 14px;
+    color: #999;
+    line-height: 0.42rem;
+    text-align: justify;
+  }
+
+  .container {
+    margin-top: 0.16rem;
+    background-color: #fff;
+    padding: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .record-title {
+    font-weight: 600;
+    font-size: 0.32rem;
+    margin-bottom: 0.12rem;
+  }
+
+  .records {
+    padding: 0.32rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.16rem;
+    background-color: #fff;
+
+    .items {
+      padding-top: 0.12rem;
+      padding-bottom: 0.12rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 0.08rem;
+      }
+    }
+
+    .items:nth-child(n + 3) {
+      border-top: 1px solid #d7d7d7;
+    }
+
+    .createTime {
+      padding-top: 0.12rem;
+    }
+  }
+}

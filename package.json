@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "author": "heine <71184501209@stu.ecnu.edu.cn>",
+  "scripts": {
+    "build": "cross-env APP_ENV=production max build",
+    "dev": "cross-env APP_ENV=dev max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.2.11",
+    "amfe-flexible": "^2.2.1",
+    "antd": "^5.4.0",
+    "antd-mobile": "^5.36.1",
+    "lib-flexible": "^0.3.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "qs": "^6.12.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "cross-env": "^7.0.3",
+    "husky": "^9",
+    "lint-staged": "^13.2.0",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
